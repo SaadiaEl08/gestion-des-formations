@@ -1,0 +1,68 @@
+.form {
+  border: 3px solid white;
+  border-radius: 50px;
+  background-color: #007aff;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3em auto;
+  padding: 5em;
+  width: 30em;
+  max-height: 75vh;
+}
+.form > h2 {
+  color: white;
+  width: 15em;
+  margin: 10px 0;
+}
+.form > div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 21em;
+  margin-bottom: 1.5em;
+  padding: 4px;
+}
+.form > div label {
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+select{
+    width: 17em;
+}
+button {
+  padding: 10px;
+  background-color: rgb(73, 188, 73);
+  color: white;
+  outline: none;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 10em;
+  transition: 1s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+.radios{
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: max-content;
+
+}
+.radios>div{
+  width: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.radios>div label{
+  width: 10em;
+}
+

@@ -14,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `json-serve --watch data.json --port 8000`
+
+this command will run the json server on the 8000 port so that the app can connect with the API 
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

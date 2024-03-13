@@ -1,0 +1,70 @@
+.form{
+    width: 50em;
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+
+}
+label{
+    font-size: 1em;
+    font-weight: 500;
+
+}
+
+.chercherInput ,select{
+    border: 1px solid black;
+    border-radius: 20px;
+    width:14em;
+    padding: 6px;
+
+}
+.chercher{
+    width: 22em;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chercherParPeriode > div{
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5em;
+}
+
+
+.submitBtn:disabled{
+    margin-top: 1em;
+    background-color: rgb(194, 180, 180);
+    padding: .6em;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.submitBtn:disabled:hover{
+    cursor: auto;
+    transform:none;
+}
+
+.submitBtn:enabled{
+    margin-top: 1em;
+    background-color: rgb(135, 135, 231);
+    border: none;
+    padding: .6em;
+    outline: none;
+    border-radius: 20px;
+}
+.submitBtn:enabled:hover{
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+@media print{
+    .noprint{
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.nav{
+    background:  #ecebeb;
+    display: flex;
+    justify-content: center;
+}
+.linkContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60em;
+    height: 5em;
+    margin: 1em;
+    border: 3px solid #333333;
+    border-radius: 50px;
+    background-color:   #007AFF;
+}
+.link{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding:.5em 1em;
+    transition: .7s;
+    color: white;
+}
+.link:hover{
+    transform: scale(1.1);
+}
+hr{
+    height: 3px;
+    background-color: white;
+    margin-top: 4px;
+
+}
+@media print{
+    .noprint{
+        display: none;
+    }
+}

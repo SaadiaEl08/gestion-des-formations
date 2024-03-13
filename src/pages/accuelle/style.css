@@ -1,0 +1,83 @@
+.bienv {
+  position: relative;
+  width: 100svw;
+  height: 80svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.bienv > h1 {
+  font-size: 10rem;
+  font-weight: 500;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.circle {
+  position: absolute;
+  background: rgb(0, 122, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 122, 255, 1) 0%,
+    rgba(0, 255, 230, 1) 100%
+  );
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+  animation: moveCircle 20s  infinite  linear ;
+  z-index: -1;
+}
+
+
+.minCircle {
+  transform: translate(50px, 50px);
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle:nth-child(2) {
+  top: 10%;
+  left: 90%;
+}
+.circle:nth-child(3) {
+  top: 10%;
+  left: 10%;
+}
+.circle:nth-child(4) {
+  top: 70%;
+  left: 70%;
+}
+.circle:nth-child(5) {
+  top: 70%;
+  left: 0;
+}
+.circle:nth-child(6) {
+  top: 0;
+  left: 50%;
+}
+
+
+
+@keyframes moveCircle {
+  0% {
+    transform: translate(0) rotateZ(0);
+  }
+  20% {
+    transform: translate(-4em, 4em) rotateZ(45deg);
+  }
+  40% {
+    transform: translate(-8em) rotateZ(90deg);
+  }
+  60% {
+    transform: translate(4em, -4em) rotateZ(135deg);
+  }
+  80% {
+    transform: translate(8em) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(0em) rotateZ(0deg);
+  }
+}

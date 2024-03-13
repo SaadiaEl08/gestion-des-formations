@@ -1,0 +1,136 @@
+{
+  "employes": [
+    {
+      "id": "3781",
+      "nom": "el achguir",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "1"
+    },
+    {
+      "id": "a710",
+      "nom": "mahmadi",
+      "prenom": "salima",
+      "telephone": "0762386899",
+      "diplomeId": "3"
+    },
+    {
+      "id": "69ee",
+      "nom": "omlil",
+      "prenom": "noureddin",
+      "telephone": "0762386899",
+      "diplomeId": "1"
+    },
+    {
+      "id": "7ace",
+      "nom": "salmi",
+      "prenom": "said",
+      "telephone": "0762386899",
+      "diplomeId": "1"
+    },
+    {
+      "id": "1d10",
+      "nom": "el achguir",
+      "prenom": "yahya",
+      "telephone": "0762386899",
+      "diplomeId": "1"
+    }
+  ],
+  "diplomes": [
+    {
+      "id": "0",
+      "nom": "All"
+    },
+    {
+      "id": "1",
+      "nom": "AA-OPTC"
+    },
+    {
+      "id": "2",
+      "nom": "DD-OPWFS"
+    },
+    {
+      "id": "3",
+      "nom": "DD-OPM"
+    },
+    {
+      "id": "4",
+      "nom": "DI-OPTWFS"
+    }
+  ],
+  "formations": [
+    {
+      "id": "6271",
+      "nom": "CSS-Tailwind",
+      "date_debut": "2024-03-05",
+      "date_fin": "2024-03-06",
+      "etat": "Terminé",
+      "adresse": "taghzout 1 tarrast inezgane",
+      "diplomeId": "0"
+    },
+    {
+      "id": "0317",
+      "nom": "js",
+      "date_debut": "2024-03-07",
+      "date_fin": "2024-03-23",
+      "etat": "Annuler",
+      "adresse": "Agadir",
+      "diplomeId": "0"
+    },
+    {
+      "id": "0357",
+      "nom": "laravel",
+      "date_debut": "2024-02-07",
+      "date_fin": "2024-03-23",
+      "etat": "Annuler",
+      "adresse": "Agadir",
+      "diplomeId": "0"
+    },
+    {
+      "id": "0417",
+      "nom": "sql",
+      "date_debut": "2024-02-07",
+      "date_fin": "2024-02-23",
+      "etat": "Terminé",
+      "adresse": "Agadir",
+      "diplomeId": "0"
+    },
+    {
+      "id": "0436",
+      "nom": "PHP",
+      "date_debut": "2024-02-07",
+      "date_fin": "2024-04-23",
+      "etat": "En cours",
+      "adresse": "Agadir",
+      "diplomeId": "0"
+    }
+  ],
+  "formationEtats": [
+    {
+      "etats": [
+        "Programmer",
+        "Annuler",
+        "En cours",
+        "Terminé"
+      ],
+      "id": "7b98"
+    }
+  ],
+  "participations": [
+    {
+      "id": "ed20",
+      "formation_id": "6271",
+      "employe_id": "3781"
+    },
+    {
+      "id": "4605",
+      "formation_id": "6271",
+      "employe_id": "a710"
+    },
+    {
+      "id": "bb2c",
+      "formation_id": "6271",
+      "employe_id": "69ee"
+    }
+  ]
+}

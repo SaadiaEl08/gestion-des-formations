@@ -1,0 +1,294 @@
+{
+  "employes": [
+    {
+      "id": "3",
+      "nom": "El achguir",
+      "prenom": "Yahya",
+      "telephone": "06000000",
+      "diplomeId": "3"
+    },
+    {
+      "id": "4",
+      "nom": "El achguir",
+      "prenom": "salma",
+      "telephone": "06000000",
+      "diplomeId": "1"
+    },
+    {
+      "id": "9121",
+      "nom": "el achguir",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "4"
+    },
+    {
+      "id": "8abc",
+      "nom": "el achguir",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "3"
+    },
+    {
+      "id": "c560",
+      "nom": "el achguir",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "1"
+    },
+    {
+      "id": "2392",
+      "nom": "el achguir",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "3"
+    },
+    {
+      "id": "9a89",
+      "nom": "el achguir",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "3"
+    },
+    {
+      "id": "7277",
+      "nom": "el achguirrrrrrr",
+      "prenom": "saadia",
+      "telephone": "0762386899",
+      "diplomeId": "1"
+    }
+  ],
+  "diplomes": [
+    {
+      "id": "0",
+      "nom": "All"
+    },
+    {
+      "id": "1",
+      "nom": "AA-OPTC"
+    },
+    {
+      "id": "2",
+      "nom": "DD-OPWFS"
+    },
+    {
+      "id": "3",
+      "nom": "DD-OPM"
+    },
+    {
+      "id": "4",
+      "nom": "DI-OPTWFS"
+    }
+  ],
+  "formations": [
+    {
+      "id": "1",
+      "nom": "mongoDB",
+      "date_debut": "2023-01-12",
+      "date_fin": "2023-02-12",
+      "etat": "Terminé",
+      "adresse": "casablanca",
+      "diplomeId": "1"
+    },
+    {
+      "id": "2",
+      "nom": "JS",
+      "date_debut": "2024-04-03",
+      "date_fin": "2024-12-03",
+      "etat": "Annuler",
+      "adresse": "Agadir",
+      "diplomeId": "2"
+    },
+    {
+      "id": "3",
+      "nom": "CSS-Tailwind",
+      "date_debut": "2024-05-03",
+      "date_fin": "2025-08-03",
+      "etat": "Programmer",
+      "adresse": "Agadir",
+      "diplomeId": "1"
+    },
+    {
+      "id": "4",
+      "nom": "Laravel",
+      "date_debut": "2024-10-03",
+      "date_fin": "2024-12-03",
+      "etat": "Programmer",
+      "adresse": "Safi",
+      "diplomeId": "0"
+    },
+    {
+      "id": "78f6",
+      "nom": "c#",
+      "date_debut": "2024-02-01",
+      "date_fin": "2024-03-01",
+      "etat": "Terminé",
+      "adresse": "fes",
+      "diplomeId": "6"
+    },
+    {
+      "id": "c23e",
+      "nom": "mongoDB",
+      "date_debut": "2024-02-29",
+      "date_fin": "2024-03-10",
+      "etat": "En cours",
+      "adresse": "tarrast 1",
+      "diplomeId": "0"
+    },
+    {
+      "id": "7531",
+      "nom": "el achguir",
+      "date_debut": "2023-12-31",
+      "date_fin": "2024-01-01",
+      "etat": "Terminé",
+      "adresse": "tarrast 1",
+      "diplomeId": "0"
+    },
+    {
+      "id": "a84b",
+      "nom": "el achguir",
+      "date_debut": "2023-01-01",
+      "date_fin": "2024-04-02",
+      "etat": "En cours",
+      "adresse": "tarrast 1",
+      "diplomeId": "6"
+    },
+    {
+      "id": "4f78",
+      "nom": "el achguir",
+      "date_debut": "2024-02-26",
+      "date_fin": "2024-03-05",
+      "etat": "En cours",
+      "adresse": "q",
+      "diplomeId": "0"
+    },
+    {
+      "id": "a553",
+      "nom": "el achguir",
+      "date_debut": "2024-02-26",
+      "date_fin": "2024-03-08",
+      "etat": "En cours",
+      "adresse": "tarrast 1",
+      "diplomeId": "0"
+    },
+    {
+      "id": "81ea",
+      "nom": "el achguir",
+      "date_debut": "2024-02-26",
+      "date_fin": "2024-04-06",
+      "etat": "En cours",
+      "adresse": "tarrast 1",
+      "diplomeId": "0"
+    },
+    {
+      "id": "8a5c",
+      "nom": "el achguir",
+      "date_debut": "2024-02-26",
+      "date_fin": "2024-03-24",
+      "etat": "En cours",
+      "adresse": "tarrast 1",
+      "diplomeId": "0"
+    },
+    {
+      "id": "1db4",
+      "nom": "el achguir",
+      "date_debut": "2024-02-26",
+      "date_fin": "2024-03-16",
+      "etat": "En cours",
+      "adresse": "tarrast 1",
+      "diplomeId": "0"
+    }
+  ],
+  "formationEtats": [
+    {
+      "etats": [
+        "Programmer",
+        "Annuler",
+        "En cours",
+        "Terminé"
+      ],
+      "id": "7b98"
+    }
+  ],
+  "participations": [
+    {
+      "id": "1",
+      "formation_id": "1",
+      "employe_id": "c560"
+    },
+    {
+      "id": "2",
+      "formation_id": "2",
+      "employe_id": "c560"
+    },
+    {
+      "id": "5",
+      "formation_id": "3",
+      "employe_id": "4"
+    },
+    {
+      "id": "6",
+      "formation_id": "4",
+      "employe_id": "4"
+    },
+    {
+      "id": "295f",
+      "formation_id": "4",
+      "employe_id": "3"
+    },
+    {
+      "id": "5ed2",
+      "formation_id": "4",
+      "employe_id": "9121"
+    },
+    {
+      "id": "b5c4",
+      "formation_id": "4",
+      "employe_id": "8abc"
+    },
+    {
+      "id": "46cc",
+      "formation_id": "4",
+      "employe_id": "2392"
+    },
+    {
+      "id": "c293",
+      "formation_id": "3",
+      "employe_id": "c560"
+    },
+    {
+      "id": "c174",
+      "formation_id": "3",
+      "employe_id": "3"
+    },
+    {
+      "id": "0e20",
+      "formation_id": "3",
+      "employe_id": "9121"
+    },
+    {
+      "id": "c2a5",
+      "formation_id": "3",
+      "employe_id": "8abc"
+    },
+    {
+      "id": "7c10",
+      "formation_id": "4",
+      "employe_id": "c560"
+    },
+    {
+      "id": "0e57",
+      "formation_id": "3",
+      "employe_id": "2392"
+    },
+    {
+      "id": "e3a3",
+      "formation_id": "3",
+      "employe_id": "9a89"
+    },
+    {
+      "id": "7f1c",
+      "formation_id": "3",
+      "employe_id": "7277"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fa-plus{
+    padding: 1em ;
+    margin-right: 5em;
+    border:2px solid white;
+    border-radius: 2em;
+    background-color: rgb(42, 199, 42);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.fa-plus:hover{
+    transform: scale(1.1);
+}
+
+table{
+    width: 90vw;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 10px;
+
+}
+thead{
+    border-bottom: 1px solid #333;
+}
+tr{
+    height: 3em;
+}
+tbody tr:hover{
+    background-color: rgb(179, 232, 249);
+}
+.fa-trash{
+    color: red;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+.fa-edit{
+    color: green;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+@media print{
+    .noprint{
+        display: none;
+    }
+}
