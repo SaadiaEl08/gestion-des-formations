@@ -18,15 +18,15 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/gestion-des-formations" element={<Accuelle/>} />
-        <Route path="gestion-des-formations/employes" element={<Employes />} />
-        <Route path="gestion-des-formations/employes/add" element={<AddEmploye />} />
-        <Route path="gestion-des-formations/employes/:id" element={<EditeEmploye />} />
-        <Route path="gestion-des-formations/formations" element={<Formations />} />
-        <Route path="gestion-des-formations/formations/add" element={<AddFormtion />} />
-        <Route path="gestion-des-formations/formations/:id" element={<EditeFormation />} />
-        <Route path="gestion-des-formations/participations" element={<Participations />} />
-        <Route path="gestion-des-formations/participations/add" element={<AddParticipation />} />
+        <Route path="/" element={<Accuelle/>} />
+        <Route path="/employes" element={<Employes />} />
+        <Route path="/employes/add" element={<AddEmploye />} />
+        <Route path="/employes/:id" element={<EditeEmploye />} />
+        <Route path="/formations" element={<Formations />} />
+        <Route path="/formations/add" element={<AddFormtion />} />
+        <Route path="/formations/:id" element={<EditeFormation />} />
+        <Route path="/participations" element={<Participations />} />
+        <Route path="/participations/add" element={<AddParticipation />} />
       </Routes>
     </BrowserRouter>
   );
